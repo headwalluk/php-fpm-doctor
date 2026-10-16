@@ -56,4 +56,4 @@ site's code.
 
 ## Licence
 
-To be decided.
+MIT. See [LICENSE](./LICENSE).
