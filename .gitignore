@@ -1,0 +1,19 @@
+# Internal design notes. Not published.
+#
+# dev-notes/ names real client sites and quotes their logs, which is what makes
+# it useful while designing and what must not become public. Source comments
+# cite it as `dev-notes/NN`; those are citations to an archive you may not have,
+# not broken links.
+dev-notes/
+
+# Local agent configuration. Deliberately this one file and not `.claude/`,
+# which also holds shared project configuration.
+.claude/settings.local.json
+
+# Captured log extracts and status-page dumps used as test input during
+# development. Real hosts, real client traffic.
+var/
+
+vendor/
+*.log
+*~
